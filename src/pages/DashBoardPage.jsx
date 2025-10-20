@@ -1,14 +1,12 @@
-// import React, { useEffect, useState } from 'react'
-// import { Pie } from "react-chartjs-2";
-// import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
-// import { Link } from "react-router-dom";
+
 
 import React, { useEffect, useState } from "react";
-import { getPatients } from "../services/Api";
+// import { getPatients } from "../services/Api";
 import { FaUserInjured, FaHospitalUser, FaVirus } from "react-icons/fa";
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Link } from "react-router-dom";
+import { getPatients } from "../services/allApi";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 

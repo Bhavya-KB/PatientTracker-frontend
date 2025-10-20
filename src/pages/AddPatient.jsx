@@ -2,7 +2,8 @@ import React from 'react'
 
 import PatientForm from '../components/PatientForm';
 import { useNavigate } from 'react-router-dom';
-import { addPatient } from '../services/Api';
+import { addPatient } from '../services/allApi';
+// import { addPatient } from '../services/Api';
 
 function AddPatient() {
  const navigate = useNavigate();

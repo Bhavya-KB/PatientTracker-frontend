@@ -2,8 +2,9 @@
 import React, { useEffect, useState } from 'react';
 import PatientForm from '../components/PatientForm';
 import { useParams, useNavigate } from 'react-router-dom';
-import { getPatient, updatePatient } from '../services/Api';
+// import { getPatient, updatePatient } from '../services/Api';
 import Swal from 'sweetalert2';
+import { getPatient, updatePatient,  } from '../services/allApi';
 
 export default function EditPatient() {
   const { id } = useParams();

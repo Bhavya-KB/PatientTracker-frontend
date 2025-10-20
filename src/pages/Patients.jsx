@@ -3,7 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
 import PatientCard from '../components/PatientCard';
-import { deletePatient, getPatients } from '../services/Api';
+import { deletePatient, getPatients } from '../services/allApi';
+// import { deletePatient, getPatients } from '../services/Api';
 
 export default function Patients() {
   const [patients, setPatients] = useState([]);
